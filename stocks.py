@@ -4,7 +4,7 @@ import screenspace as ss
 from screenspace import Terminal
 import os
 import networking
-import stock_market as sm
+import modules_directory.stock_market as sm
 from socket import socket
 
 module_name = "Stocks"

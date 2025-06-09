@@ -6,6 +6,8 @@ import threading
 import keyboard
 import heapq
 
+help_text = "Type STOCK to enter the stock market. Use W/S to navigate between stocks, SHIFT + B/S to buy and sell, ENTER to confirm selection, and G to view graph" 
+
 # Seed the random number generator with the current time
 random.seed(time.time())
 
