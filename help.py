@@ -4,17 +4,17 @@ help = []
 
 def get_help():
     """
-    Sets the list of available casino game submodules.
+    Creates a help menu with all of the commands in the game
 
-    This function scans the "casino_games" directory for Python files, dynamically 
-    imports each module, and checks if the module has a 'game_title' attribute.
+    This function scans the "modules_directory" directory for Python files, dynamically 
+    imports each module, and checks if the module has a 'help_text' attribute.
     If the attribute exists, the game's title along with its command name is added 
     to the formatted list.
 
     Returns:
         None
     """
-    #global help
+    
     help_text = r"""
    ___         
  _|\  \__                          === HELP MENU ===
